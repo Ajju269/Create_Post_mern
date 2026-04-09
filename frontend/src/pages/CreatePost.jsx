@@ -13,7 +13,7 @@ const CreatePost = () => {
 
         const formData = new FormData(e.target)
 
-        axios.post("https://your-app.onrender.com", formData)
+       axios.post("https://your-app.onrender.com/create-post", formData)
             .then((res) => {
 
                 navigate("/posts")

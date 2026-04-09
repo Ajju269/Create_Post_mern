@@ -15,7 +15,7 @@ const FeedPage = () => {
 
     useEffect(()=>{
 
-        axios.get("https://your-app.onrender.com")
+axios.get("https://your-app.onrender.com/posts")    
         .then((res)=>{
 
             setPosts(res.data.posts)
